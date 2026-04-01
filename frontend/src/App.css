@@ -1,0 +1,87 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Role highlight */
+.role {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #4CAF50, #2e7d32);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #45a049, #1b5e20);
+}
+
+/* Resolve button */
+.resolve-btn {
+  background: linear-gradient(135deg, #2196F3, #1565C0);
+}
+
+.resolve-btn:hover {
+  background: linear-gradient(135deg, #1976D2, #0d47a1);
+}
+
+/* Text */
+p {
+  margin: 5px 0;
+  color: #444;
+}
